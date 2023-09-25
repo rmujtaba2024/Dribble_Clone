@@ -8,6 +8,7 @@ const User = g.model('User', {
   description: g.string().length({ min: 2, max: 1000 }).optional(),
   githubUrl: g.url().optional(),
   linkedinUrl: g.url().optional(), 
+  // @ts-ignore
   projects: g.relation(() => Project).list().optional(),
 }).auth((rules) => {
   rules.public().read()
