@@ -47,7 +47,7 @@ const Footer = () => (
       </div>
 
       <div className="flexBetween footer_copyright">
-          <p>@ 2023 Flexibble. All rights reserved</p>
+          <p>@ 2023 Flexibble Rana Mujtaba</p>
           <p className="text-gray">
               <span className="text-black font-semibold">10,214</span> projects submitted
           </p>
